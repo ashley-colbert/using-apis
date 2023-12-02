@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Dogs</title>
+  <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="./index.html">Home</a>
+      <a href="./about.html">About</a>
+      <a href="./contact.html">Contact Us</a>
+    </nav>
+    <h1>Dogs of the World</h1>
+    
+ 
+  </header>
+  <button class="btn">Load Dog Breeds</button>
+  <form>
+    
+    <label for="dog-breeds">Choose a dog breed:</label>
+    <select id="dog-breeds" onchange="loadImages(this.value)">
+      <option>Select a breed</option>
+    </select>
+    <label for="num-dogs">Number of dog pictures:</label>
+    <input id="num-dogs" type="text" placeholder="1-100">
+    
+  </form>
+  
+  
+  <div id="images"></div>
+  <script src="../scripts/script.js"></script>
+</body>
+</html>
