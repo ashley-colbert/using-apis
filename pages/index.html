@@ -18,16 +18,25 @@
     
  
   </header>
+
+  <div>
+    <h2>
+      Please follow the instructions below to display pictures of your favourite dog! 
+    </h2>
+    <ul> 
+      <li>Click the button "Load Dog Breeds" to add a full list of dogs to the dropdown menu.</li> <br>
+      <li>Be sure to enter the number of dog pictures you would like to see displayed before choosing your a dog. You can choose anywhere from 1-100.</li><br>
+      <li>Finally, choose a dog from the dropdown menu and the number of pictures you've choosen will automatically be displayed.</li>
+  </div>
   <button class="btn">Load Dog Breeds</button>
   <form>
-    
+    <label for="num-dogs">Number of pictures to be displayed:</label>
+    <input id="num-dogs" type="text" placeholder="1-100"><br><br>
     <label for="dog-breeds">Choose a dog breed:</label>
     <select id="dog-breeds" onchange="loadImages(this.value)">
-      <option>Select a breed</option>
+      <option>Press Button to Load Breeds</option>
     </select>
-    <label for="num-dogs">Number of dog pictures:</label>
-    <input id="num-dogs" type="text" placeholder="1-100">
-    
+ 
   </form>
   
   

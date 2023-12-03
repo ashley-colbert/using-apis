@@ -1,12 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Dosis&display=swap");
 
 body {
-  font-family: 'Dosis', Arial, Helvetica, sans-serif;
+  font-family: "Dosis", Arial, Helvetica, sans-serif;
+  margin: 25px;
+  background-color: lightgray;
 }
 
 header {
   background-color: cadetblue;
+  margin: -25px;
 }
+
 h1 {
   font-weight: 500;
   font-size: 75pt;
@@ -15,12 +19,11 @@ h1 {
   text-align: center;
 }
 
-img { 
-  display: flex;
-  flex-direction: row;
-  width: 200px; 
+img {
+  width: 200px;
   height: 200px;
-  border-radius: 8px; 
+  border-radius: 8px;
+  margin: 25px;
 }
 
 nav {
@@ -41,5 +44,26 @@ a:visited {
 a:hover {
   color: darkgray;
   cursor: pointer;
+}
+
+.btn {
+  width: 200px;
+  padding: 20px;
+  background: cadetblue;
+  margin: 20px;
+  font-size: larger;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 4px 4px 4px gray;
+}
+
+.btn:active {
+  transform: translateY(4px);
+}
+
+#num-dogs {
+  width:40px;
+  border: none;
+  text-align: center;
 }
 
