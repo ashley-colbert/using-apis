@@ -7,7 +7,8 @@ body {
 }
 
 header {
-  background-color: cadetblue;
+  background-image: url("../images/background.png");
+  background-size: cover;
   margin: -25px;
 }
 
@@ -17,6 +18,12 @@ h1 {
   padding: 75px 100px 100px 100px;
   margin-top: 0;
   text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 40pt;
+  }
 }
 
 img {
@@ -54,7 +61,6 @@ a:hover {
   padding: 20px;
   background: cadetblue;
   margin: 20px;
-  /* font-size: larger; */
   color: white;
   border-radius: 8px;
   box-shadow: 4px 4px 4px gray;
@@ -66,8 +72,20 @@ a:hover {
 
 #num-dogs {
   width:40px;
+  height: 30px;
   border: none;
   text-align: center;
+}
+
+#dog-breeds {
+  font-family: "Dosis";
+  font-size: large;
+  height: 30px;
+  border: none;
+}
+
+form {
+  font-size: xx-large;
 }
 
 #dog {
