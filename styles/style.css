@@ -86,6 +86,7 @@ a:hover {
 
 form {
   font-size: xx-large;
+  margin: 20px 20px 70px 20px
 }
 
 #dog {
@@ -95,4 +96,14 @@ form {
 
 #errorMessage {
   color: red;
+}
+
+footer {
+  background: cadetblue;
+  padding: 20px;
+  margin: -25px;
+}
+
+.right {
+  float: right;
 }
